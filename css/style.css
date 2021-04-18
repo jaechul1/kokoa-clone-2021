@@ -1,0 +1,29 @@
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+
+/* Screens */
+@import "screens/login.css";
+
+@font-face {
+  font-family: "OptimusPrinceps";
+  src: url(../optimusprinceps/OptimusPrinceps.ttf) format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: OptimusPrinceps;
+  background-color: var(--mblack);
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+}

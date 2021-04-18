@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DARK SOULS TALK</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__time">08:03</span>
+        <i class="fas fa-location-arrow status-bar__location"></i>
+      </div>
+      <div class="status-bar__column">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-5 w-5 status-bar__signal"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+        >
+          <path
+            d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z"
+          />
+        </svg>
+        <span class="status-bar__LTE">LTE</span>
+        <i class="fas fa-battery-three-quarters status-bar__battery"></i>
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to DARK SOULS Talk</h1>
+      <p class="welcome-header__text">If you have an account,</p>
+      <p class="welcome-header__text">log in with your name.</p>
+    </header>
+
+    <form action="friends.html" class="login-form">
+      <input
+        required
+        class="login-form__blank"
+        type="text"
+        placeholder="Name"
+      />
+      <input
+        required
+        class="login-form__blank"
+        type="password"
+        placeholder="Password"
+      />
+      <input class="login-form__submit" type="submit" value="Log In" />
+      <a class="login-form__help" href="#"
+        >Need Help Remember Your Name or Password?</a
+      >
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/e6b4f2a1ea.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

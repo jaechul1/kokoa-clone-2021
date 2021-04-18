@@ -1,0 +1,56 @@
+.welcome-header {
+  color: var(--mwhite);
+  margin-top: 150px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.welcome-header__title {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.welcome-header__text {
+  font-size: 20px;
+  opacity: 0.8;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-form__blank {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid var(--mwhite);
+  outline: none;
+  padding: 15px 0px;
+  font-family: OptimusPrinceps;
+  font-size: 18px;
+  transition: border-color 1.5s ease-in-out;
+  color: var(--mwhite);
+}
+
+.login-form__blank:focus {
+  border-color: var(--fire);
+}
+
+.login-form__submit {
+  font-family: OptimusPrinceps;
+  padding: 5px 30px;
+  font-size: 18px;
+  margin: 50px 0px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+
+.login-form__help {
+  color: var(--mwhite);
+  text-decoration: none;
+  font-size: 18px;
+}
