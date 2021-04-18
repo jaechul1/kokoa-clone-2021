@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CHATS - DARK SOULS TALK</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__time">08:03</span>
+        <i class="fas fa-location-arrow status-bar__location"></i>
+      </div>
+      <div class="status-bar__column">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-5 w-5 status-bar__signal"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+        >
+          <path
+            d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z"
+          />
+        </svg>
+        <span class="status-bar__LTE">LTE</span>
+        <i class="fas fa-battery-three-quarters status-bar__battery"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Chats</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="far fa-comment-dots fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <span><i class="fas fa-cog fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img src="images/firekeeper.jpg" class="user-component__avatar" />
+          <div class="user-component__text">
+            <h4 class="user-component__title user-component__title--not-bold">
+              Fire Keeper
+            </h4>
+            <h6 class="user-component__subtitle">text</h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span class="user-component__time">08:02</span>
+          <div class="badge">5</div>
+        </div>
+      </div>
+
+      <div class="user-component">
+        <div class="user-component__column">
+          <img src="images/siegward.jpg" class="user-component__avatar" />
+          <div class="user-component__text">
+            <h4 class="user-component__title user-component__title--not-bold">
+              Siegward of Catarina
+            </h4>
+            <h6 class="user-component__subtitle">text</h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span class="user-component__time">07:59</span>
+          <div class="badge">18</div>
+        </div>
+      </div>
+
+      <div class="user-component">
+        <div class="user-component__column">
+          <img src="images/yuria.jpg" class="user-component__avatar" />
+          <div class="user-component__text">
+            <h4 class="user-component__title user-component__title--not-bold">
+              Yuria of Londor
+            </h4>
+            <h6 class="user-component__subtitle">text</h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span class="user-component__time">06:13</span>
+        </div>
+      </div>
+
+      <div class="user-component">
+        <div class="user-component__column">
+          <img src="images/anri.png" class="user-component__avatar" />
+          <div class="user-component__text">
+            <h4 class="user-component__title user-component__title--not-bold">
+              Anri of Astora
+            </h4>
+            <h6 class="user-component__subtitle">text</h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span class="user-component__time">01:25</span>
+        </div>
+      </div>
+
+      <div class="user-component">
+        <div class="user-component__column">
+          <img src="images/orbeck.png" class="user-component__avatar" />
+          <div class="user-component__text">
+            <h4 class="user-component__title user-component__title--not-bold">
+              Orbeck of Vinheim
+            </h4>
+            <h6 class="user-component__subtitle">text</h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span class="user-component__time">Yesterday</span>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user nav__icon"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">23</span>
+            <i class="fas fa-comment nav__icon"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search nav__icon"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html"
+            ><i class="fas fa-ellipsis-h nav__icon"></i>
+            <div class="nav__notification2"></div
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/e6b4f2a1ea.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

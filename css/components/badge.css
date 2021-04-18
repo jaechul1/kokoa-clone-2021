@@ -1,0 +1,11 @@
+.badge {
+  font-weight: 600;
+  font-size: 18px;
+  background-color: var(--fire);
+  display: flex;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}

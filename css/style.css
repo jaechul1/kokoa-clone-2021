@@ -4,9 +4,17 @@
 /* Components */
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/alt-screen-header.css";
 
 /* Screens */
 @import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
 
 @font-face {
   font-family: "OptimusPrinceps";
@@ -22,8 +30,14 @@ body {
   background-color: var(--mblack);
   display: flex;
   flex-direction: column;
+  color: var(--mwhite);
 }
 
 a {
+  color: var(--mwhite);
   text-decoration: none;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
 }

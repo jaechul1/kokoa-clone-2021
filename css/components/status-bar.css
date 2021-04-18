@@ -6,6 +6,7 @@
   position: fixed;
   padding: 15px;
   color: var(--mwhite);
+  background-color: rgba(25, 25, 25, 0.9);
 }
 
 .status-bar__column {
