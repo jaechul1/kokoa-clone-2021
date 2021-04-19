@@ -9,6 +9,7 @@
   font-size: 30px;
   margin-bottom: 20px;
   font-weight: 600;
+  width: 60%;
 }
 
 .welcome-header__text {
@@ -55,5 +56,5 @@
   text-decoration: none;
   text-align: center;
   font-size: 18px;
-  width: 80%;
+  width: 60%;
 }

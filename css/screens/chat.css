@@ -128,7 +128,7 @@
   display: flex;
   background-color: var(--mwhite);
   justify-content: space-between;
-  padding: 10px 25px;
+  padding: 10px 22px;
   align-items: center;
 }
 
@@ -170,14 +170,15 @@
 }
 
 .reply__column:last-child .fa-smile {
-  right: 40px;
+  right: 42px;
   bottom: 2px;
 }
 
-.reply__column:last-child button {
+.reply__column:last-child .reply__btn {
   bottom: 4px;
   right: 6px;
   border: none;
+  padding: 3px 8px;
   background-color: var(--fire);
   border-radius: 10px;
 }
@@ -188,8 +189,5 @@
 }
 
 .reply__column .fa-arrow-up {
-  font-size: 19px;
-}
-
-.reply:focus-within {
+  font-size: 20px;
 }
