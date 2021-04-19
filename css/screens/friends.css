@@ -39,23 +39,17 @@
 
 .splash-screen__back {
   width: 100vw;
-  height: 100vh;
+  height: 1200px;
   background-color: var(--mblack);
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  padding-top: 300px;
   z-index: 50;
 }
 
 .splash-screen__main {
   z-index: 51;
   margin-bottom: 15px;
-}
-
-.splash-screen__hide {
-  width: 100vw;
-  height: 60vh;
-  background-color: var(--mblack);
-  z-index: 50;
+  padding: 0px 1px;
 }

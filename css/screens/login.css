@@ -7,10 +7,16 @@
 
 .welcome-header__title {
   font-size: 30px;
-  margin-bottom: 20px;
   font-weight: 600;
-  text-align: center;
-  width: 60%;
+}
+
+.welcome-header__title + .welcome-header__title {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.welcome-header__text + .welcome-header__text {
+  margin-top: 5px;
 }
 
 .welcome-header__text {
@@ -57,5 +63,4 @@
   text-decoration: none;
   text-align: center;
   font-size: 18px;
-  width: 60%;
 }

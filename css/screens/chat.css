@@ -45,7 +45,7 @@
 }
 
 .main-chat {
-  margin-top: 180px;
+  margin-top: 140px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -165,7 +165,7 @@
 }
 
 .reply__column:last-child .fa-smile,
-.reply__column:last-child .reply__btn {
+.reply__column:last-child button {
   position: absolute;
 }
 
@@ -174,11 +174,10 @@
   bottom: 2px;
 }
 
-.reply__column:last-child .reply__btn {
+.reply__column:last-child button {
   bottom: 4px;
   right: 6px;
   border: none;
-  padding: 3px 8px;
   background-color: var(--fire);
   border-radius: 10px;
 }
@@ -189,5 +188,5 @@
 }
 
 .reply__column .fa-arrow-up {
-  font-size: 20px;
+  font-size: 19px;
 }
