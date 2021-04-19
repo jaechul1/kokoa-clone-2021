@@ -68,3 +68,7 @@
 .login-form {
   margin-bottom: 100px;
 }
+
+.login-form__help-text + .login-form__help-text {
+  margin-top: 5px;
+}
