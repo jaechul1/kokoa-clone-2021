@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CHAT - DARK SOULS TALK</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__time">08:03</span>
+        <i class="fas fa-location-arrow status-bar__location"></i>
+      </div>
+      <div class="status-bar__column">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-5 w-5 status-bar__signal"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+        >
+          <path
+            d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z"
+          />
+        </svg>
+        <span class="status-bar__LTE">LTE</span>
+        <i class="fas fa-battery-three-quarters status-bar__battery"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html"><i class="fas fa-chevron-left fa-lg"></i></a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">fire keeper</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-lg chat-search"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">tuesday, april 20, 2021</div>
+      <div class="message-row">
+        <img src="images/firekeeper.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">fire keeper</span>
+          <div class="message__info">
+            <span class="message__bubble"
+              >Welcome to the bonfire, Unkindled One. I am a Fire Keeper.</span
+            >
+            <span class="message__time">06:00</span>
+          </div>
+          <div class="message__info">
+            <span class="message__bubble"
+              >I tend to the flame, and tend to thee.</span
+            >
+          </div>
+          <div class="message__info">
+            <span class="message__bubble"
+              >The Lords have left their thrones, and must be deliver'd to
+              them.</span
+            >
+            <span class="message__time">06:01</span>
+          </div>
+          <div class="message__info">
+            <span class="message__bubble">To this end, I am at thy side.</span>
+            <span class="message__time">06:02</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">nah</span>
+            <span class="message__time">06:02</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img src="images/firekeeper.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">fire keeper</span>
+          <div class="message__info">
+            <span class="message__bubble"
+              >Produce the coiled sword at the bonfire.</span
+            >
+          </div>
+          <div class="message__info">
+            <span class="message__bubble"
+              >The mark of ash will guide thee to the land of the Lords.</span
+            >
+            <span class="message__time">06:03</span>
+          </div>
+          <div class="message__info">
+            <span class="message__bubble"
+              >To Lothric, where the homes of the Lords converge.</span
+            >
+            <span class="message__time">06:04</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">nah</span>
+            <span class="message__time">06:05</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img src="images/firekeeper.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">fire keeper</span>
+          <div class="message__info">
+            <span class="message__bubble"
+              >Ashen one, to be Unkindled is to be a vessel for souls.</span
+            >
+          </div>
+          <div class="message__info">
+            <span class="message__bubble"
+              >Sovereignless souls will become thy strength.</span
+            >
+            <span class="message__time">06:07</span>
+          </div>
+          <div class="message__info">
+            <span class="message__bubble">I will show thee how.</span>
+          </div>
+          <div class="message__info">
+            <span class="message__bubble"
+              >Ashen one, bring me souls, plucked from their vessels...</span
+            >
+            <span class="message__time">06:08</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="write a message" />
+        <i class="far fa-smile"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/e6b4f2a1ea.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

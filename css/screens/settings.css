@@ -18,3 +18,25 @@
 .settings__setting-column:last-child {
   opacity: 0.5;
 }
+
+@keyframes shakeIcon {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  25% {
+    transform: rotateZ(20deg);
+  }
+  50% {
+    transform: rotateZ(0deg);
+  }
+  75% {
+    transform: rotateZ(-20deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+}
+
+.settings__setting i:hover {
+  animation: shakeIcon 1.5s linear infinite;
+}

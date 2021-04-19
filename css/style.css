@@ -15,6 +15,7 @@
 @import "screens/find.css";
 @import "screens/more.css";
 @import "screens/settings.css";
+@import "screens/chat.css";
 
 @font-face {
   font-family: "OptimusPrinceps";
@@ -23,6 +24,10 @@
 
 * {
   box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
 }
 
 body {
@@ -40,4 +45,28 @@ a {
 
 .main-screen {
   padding: 0px var(--horizontal-space);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@keyframes burn {
+  0% {
+    color: var(--mwhite);
+    transform: none;
+  }
+  50% {
+    color: var(--fire);
+    transform: scale(1.2);
+  }
+  100% {
+    color: var(--mwhite);
+    transform: none;
+  }
+}
+
+a i:hover {
+  will-change: transform;
+  animation: burn 1s ease-in-out infinite;
 }
