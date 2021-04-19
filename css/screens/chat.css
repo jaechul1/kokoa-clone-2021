@@ -1,5 +1,6 @@
 #chat-screen {
   background-image: url("../../images/nah.png");
+  background-size: 100vw;
   height: 500vh;
 }
 
@@ -44,7 +45,7 @@
 }
 
 .main-chat {
-  margin-top: 150px;
+  margin-top: 180px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -126,7 +127,7 @@
   width: 100%;
   display: flex;
   background-color: var(--mwhite);
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 10px 25px;
   align-items: center;
 }

@@ -53,5 +53,7 @@
 .login-form__help {
   color: var(--mwhite);
   text-decoration: none;
+  text-align: center;
   font-size: 18px;
+  width: 80%;
 }

@@ -33,13 +33,13 @@
 #splash-screen {
   position: absolute;
   top: 0;
-  animation: hideSplashScreen 1s ease-in-out forwards;
-  animation-delay: 2s;
+  animation: hideSplashScreen 0.5s ease-in-out forwards;
+  animation-delay: 3s;
 }
 
 .splash-screen__back {
   width: 100vw;
-  height: 120vh;
+  height: 100vh;
   background-color: var(--mblack);
   display: flex;
   flex-direction: column;
