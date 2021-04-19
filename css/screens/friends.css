@@ -39,7 +39,7 @@
 
 .splash-screen__back {
   width: 100vw;
-  height: 1200px;
+  height: 1150px;
   background-color: var(--mblack);
   display: flex;
   flex-direction: column;
