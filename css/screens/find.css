@@ -40,10 +40,6 @@
   font-size: 18px;
 }
 
-.open-chat {
-  margin-bottom: 100px;
-}
-
 .open-chat__header {
   display: flex;
   justify-content: space-between;

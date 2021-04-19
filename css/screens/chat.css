@@ -170,7 +170,7 @@
 }
 
 .reply__column:last-child .fa-smile {
-  right: 42px;
+  right: 45px;
   bottom: 2px;
 }
 
@@ -189,4 +189,8 @@
 
 .reply__column .fa-arrow-up {
   font-size: 19px;
+}
+
+.message-row-last {
+  margin-bottom: 100px;
 }
